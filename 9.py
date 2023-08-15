@@ -16,7 +16,7 @@ Elija una opción: '''))
 
 print("- MENU -")
 num1 = menu()
-while num1 != 1:
+while num1 != "1":
     print("Error: Debes de ingresar el primer numero para poder realizar una operacion")
     num1 = menu()
 system("cls")
@@ -25,7 +25,7 @@ system("cls")
 
 
 num2 = menu()
-while num2 != 2:
+while num2 != "2":
     print("Error: Debes de ingresar el segundo numero para poder realizar una operacion")
     num2 = menu()
 system("cls")
